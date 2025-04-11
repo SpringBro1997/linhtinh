@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Example</title>
+  </head>
+  <body>
+    <script>
+      // Tạo bảng
+      var table = document.createElement("table");
+
+      // Tạo hàng đầu tiên (header)
+      var headerRow = table.insertRow(0);
+      var headerCell1 = headerRow.insertCell(0);
+      var headerCell2 = headerRow.insertCell(1);
+      headerCell1.textContent = "Header 1";
+      headerCell2.textContent = "Header 2";
+
+      // Tạo các dòng dữ liệu
+      for (var i = 1; i <= 3; i++) {
+        var row = table.insertRow(i);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        cell1.textContent = "Row " + i + ", Cell 1";
+        cell2.textContent = "Row " + i + ", Cell 2";
+      }
+
+      // Thêm bảng vào body của trang
+      document.body.appendChild(table);
+    </script>
+  </body>
+</html>

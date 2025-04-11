@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+#modal{
+   display: inline-block;
+   left: 50px;
+}
+#noidung{
+    width: 200px;
+    border: 1px solid
+}
+#content{
+    border: 1px solid;
+}

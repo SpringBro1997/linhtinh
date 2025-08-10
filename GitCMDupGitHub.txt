@@ -1,0 +1,20 @@
+* Set your username and email (used for commits):
+     - git config --global user.name "Your Name"
+     - git config --global user.email "your.email@example.com"
++ To check your settings:
+     -
++ Clone repo từ GitHub về máy:
+     - git clone git@github.com:username/repo.git  # Dùng SSH
+# hoặc
+     - git clone https://github.com/username/repo.git  # Dùng HTTPS
+
++ Tạo repo mới và đẩy lên GitHub
+     - mkdir my-project //Tạo repo mới
+       cd my-project  // truy cập repo mới
+       git init
+       git add .    //Thêm file mới
+       git commit -m "First commit" //ghi lại thay đổi
+       git branch -M main  // Đổi branch master -> main (nếu cần)
+       git remote add origin https://github.com/username/repo.git   //Liên kết với GitHub
+       git push origin main    // Đẩy code lên
+       git pull origin main   //Cập nhập code từ github  

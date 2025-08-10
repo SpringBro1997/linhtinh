@@ -1,0 +1,40 @@
+<ul> và <li>: Tạo danh sách không có thứ tự.
+<ol> và <li>: Tạo danh sách có thứ tự.
+<table>, <tr>, <th>, và <td>: Tạo bảng và các phần tử trong bảng.
+<form>, <input>, và <button>: Tạo một biểu mẫu và các phần tử trong biểu mẫu.
+<select> và <option>: Tạo một danh sách thả xuống và các mục trong danh sách.
+<textarea>: Tạo một ô văn bản lớn cho người dùng nhập vào.
+<audio> và <video>: Hiển thị âm thanh và video trên trang web.
+<canvas>: Tạo một khu vực để vẽ đồ họa.
+<svg>: Tạo đồ họa vector.
+<iframe>: Hiển thị một trang web khác bên trong trang web hiện tại.
+<header>: Định nghĩa phần đầu của một trang hoặc một phần tử.
+<footer>: Định nghĩa phần cuối của một trang hoặc một phần tử.
+<nav>: Định nghĩa phần điều hướng trong một trang web.
+<section>: Định nghĩa một phần trong tài liệu.
+<article>: Định nghĩa một bài viết hoặc nội dung độc lập.
+<aside>: Định nghĩa một phần bổ sung hoặc thông tin liên quan đến nội dung chính.
+<blockquote>: Định dạng một đoạn trích dẫn từ một nguồn khác.
+<cite>: Định dạng tên tác giả hoặc nguồn trích dẫn.
+<code>: Định dạng một đoạn mã hoặc mã nguồn.
+<hr>: Tạo một đường kẻ ngang để phân chia nội dung.
+<label>: Liên kết một nhãn với một phần tử đầu vào.
+<legend>: Định nghĩa tiêu đề cho một phần tử đầu vào.
+<optgroup> và <option>: Tạo một danh sách thả xuống được nhóm lại.
+<progress>: Hiển thị tiến trình của một tác vụ.
+<meter>: Hiển thị một giá trị trong một dải giá trị.
+<details> và <summary>: Tạo một phần tử có thể được mở rộng hoặc thu gọn.
+<time>: Định dạng ngày và giờ.
+<ruby>, <rt>, và <rp>: Tạo các ký hiệu phonetic cho các từ hoặc cụm từ.
+<datalist> và <option>: Tạo một danh sách các giá trị cho một phần tử đầu vào.
+<output>: Hiển thị kết quả của một phần tử đầu vào.
+<details> và <summary>: Tạo một phần tử có thể được mở rộng hoặc thu gọn.
+<picture> và <source>: Tạo ảnh động và kích thước khác nhau cho các thiết bị khác nhau.
+<dialog>: Tạo một hộp thoại để hiển thị thông tin cho người dùng.
+<track>: Tạo phụ đề hoặc dịch vụ cho video hoặc audio.
+<map> và <area>: Tạo một bản đồ hình ảnh và các khu vực có thể được nhấp để chuyển hướng đến các liên kết.
+<slot>: Tạo một vị trí để chèn nội dung được tạo ra bằng JavaScript hoặc từ các phần tử khác.
+<template>: Tạo một mẫu để tạo ra các phần tử mới bằng JavaScript.
+<shadow>: Tạo một khu vực bóng để chứa các phần tử.
+<keygen>: Tạo một cặp khóa công khai và riêng tư để sử dụng trong việc xác thực người dùng.
+<bdi>: Định dạng một phần của văn bản để hiển thị bằng ngôn ngữ khác.

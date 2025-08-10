@@ -1,0 +1,5 @@
+1. Viết chương trình bảng máy tính cho các kiểu dữ liệu số nguyên
+
+2.Viết chương trình quản lý học sinh
+
+3. Viết chương trinh quản lý sản phẩm 

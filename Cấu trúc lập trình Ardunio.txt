@@ -1,0 +1,33 @@
+/* Chương trình sáng bóng led 2v(150 ôm)- 1 tụ 200 ôm- nguồn cấp 5v */
+
+Phần 1: Khai báo phần tử được sử dụng:
+    - Tìm hiểu cách t tên biến
+    - Tìm hiểu các kiểu dữ lieu
+    - Khai báo chân sử dụng
+//Khai báo chân sử dụng
+int led= 13;
+
+Phần 2: Khai báo chức năng của các phần tử được sử dung, khai báo các chuẩn giao tiếp
+    - Khai báo OUTPUT
+    - Khai báo INPUT
+
+Phần 3: Chương tình chính cho phép người lập trình sử dụng tập lệnh để lập trình hệ thống hoạt động theo yêu cầu
+//Khai báo chức năng các chân
+void setup() 
+{
+  pinMode(led,OUTPUT);
+}
+
+void loop() 
+{
+  //Khai báo LED sáng 
+  digitalWrite(led,HIGH);
+  //Thời gian LED sáng
+  delay(1000);
+
+  //Khai báo LED tắt
+  digitalWrite(led,LOW);
+  //Thời gian led tắt
+  delay(500);
+
+}

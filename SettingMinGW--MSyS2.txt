@@ -1,0 +1,3 @@
+Cài đặt môi trường C++:
+   https://www.msys2.org/
+			
